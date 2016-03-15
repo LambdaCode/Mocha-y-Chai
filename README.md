@@ -1,8 +1,8 @@
-# Práctica: Eliminación del Switch Smell
+# Práctica: Pruebas con Mocha y Chai + Cubrimiento con BlanketJS
 ## ESIT ULL - Grado en Ingeniería Informática - Tercer Curso - Itinerario: Computación
 ## Team: Adrián Rodríguez Bazaga (AdrianBZG) & Rudolf Cicko (alu0100824780)
 
-Este repositorio aloja la práctica de conversión de medidas, realizada con HTML, CSS y JavaScript, usando POO y haciendo uso de la herencia en JavaScript, con la peculiaridad de que se elimina el Switch Smell haciendo uso de encapsulamiento y la delegación de tareas.
+Este repositorio aloja la práctica de conversión de medidas, realizada con HTML, CSS y JavaScript, usando POO y haciendo uso de la herencia en JavaScript, con la peculiaridad de que se elimina el Switch Smell haciendo uso de encapsulamiento y la delegación de tareas. Además se hacen las pruebas con Mocha y Chai y el cubrimiento con BlanketJS
 
 Esta aplicación nos permite realizar conversiones de medidas entre:
 * Kelvin
