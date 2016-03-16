@@ -17,9 +17,10 @@
   "author": "Rudolf Cicko & Adrián Bazaga Rodríguez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aluXXXXXXX/STW03/issues"
+    "url": "https://github.com/LambdaCode/Mocha-y-Chai/issues"
   },
   "homepage": "https://github.com/LambdaCode",
   "devDependencies": {
+     "mocha": "*"
   }
 }
