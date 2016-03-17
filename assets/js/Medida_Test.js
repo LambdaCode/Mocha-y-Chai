@@ -1,6 +1,6 @@
 var expect = chai.expect;
 
-describe('Testing Constructors of all classes', function() {
+describe('Testing all Constructors of Medida class', function() {
   describe('Celsius: Constructor with 1 argument', function () {
     it('Should have value and type', function () {
       var medida = new Medida('100c');
@@ -114,7 +114,7 @@ describe('Testing Temperature Class', function() {
   });
 });
 
-describe('Testing Medida Class', function() {
+describe('Testing Longitud Class', function() {
   describe('Convertions are correctly implemented', function () {
     it('Should convert from Meters to Inches', function () {
       var convertion = Medida.convertir('100m to i');
