@@ -11,9 +11,8 @@
             return value;
         }
         if (converters[type])
+        {
             valor = converters[type](valor);
-        else {
-            valor = Medida.invalidConversion(type, 'Farenheit');
         }
         Temperatura.call(this, valor, "Farenheit");
     }

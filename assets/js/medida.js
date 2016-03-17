@@ -66,14 +66,11 @@
             var newMeasure = converters[value.output](parseInt(value.num), value.input)
             var result = newMeasure.getValue() + " " + newMeasure.getType();
         }
-        if (!newMeasure)
-            return "This conversion is not supported.. read EXAMPLES below!";
-        else
-            return result;
+        return result;
     }
 
     function invalidConversion(from, to) {
-        return "Invalid conversion: unknown how to convert from '" + from + "' to '" + to + "'.. See Examples below!"
+        return "Invalid conversion: unknown how to convert from '" + from + "' to '" + to + "'... See Examples below!"
     }
 
     exports.Medida = Medida;
