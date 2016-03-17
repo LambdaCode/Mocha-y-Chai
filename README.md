@@ -17,6 +17,12 @@ Y además entre:
 ### Despliegue en github.io:
 * [Click aquí](http://lambdacode.github.io/Mocha-y-Chai/)
 
+### Enlace a las pruebas (Mocha + Chai) y el resultado del cubrimiento (BlanketJS):
+* [Click aquí](http://lambdacode.github.io/Mocha-y-Chai/test/)
+
+### Ficheros minimizados utilizando Gulpfile:
+* [Click aquí](https://github.com/LambdaCode/Mocha-y-Chai/tree/gh-pages/minified)
+
 ### Repositorio de trabajo:
 * [Click aquí](https://github.com/LambdaCode/Mocha-y-Chai)
 
@@ -52,6 +58,10 @@ Además se ha implementado la posibilidad de realizar conversiones entre medidas
 
 
 
-**Enlace al campus de la asignatura Procesadores de Lenguages:**
+**Enlace al campus de la asignatura Procesadores de Lenguajes:**
 
 * [Procesadores de Lenguajes](https://campusvirtual.ull.es/1516/course/view.php?id=178)
+
+**Enlace a la descripción de la práctica:**
+
+* [Descripción de la práctica](https://campusvirtual.ull.es/1516/mod/page/view.php?id=182932)
