@@ -1,8 +1,9 @@
-var assert = require('assert');
+var expect = chai.expect;
+
 describe('Temperature', function() {
   describe('#convertir()', function () {
     it('should convert from Celsius to Kelvin', function () {
-      assert.equal(Medida.convertir('-273.15C'), '0 kelvin');
+      expect(Medida.convertir('-273.15C')).to.equal("0 kelvin");
     });
   });
 });

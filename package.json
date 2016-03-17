@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/LambdaCode",
   "devDependencies": {
-     "mocha": "*"
+     "mocha": "*",
+     "chai": "*"
   }
 }
