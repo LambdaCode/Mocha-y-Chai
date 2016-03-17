@@ -1,0 +1,1 @@
+!function(r){function e(r,e){converters={},converters.k=function(r){return r},converters.c=function(r){return r+273.15},converters.f=function(r){return 5*(r-32)/9+273.15},converters[e]&&(r=converters[e](r)),Temperatura.call(this,r,"Kelvin")}e.prototype=new Temperatura,e.prototype.constructor=e,r.Kelvin=e}(this);

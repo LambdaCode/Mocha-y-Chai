@@ -1,7 +1,7 @@
 (function(exports) {
 
     "use strict";
-    const REGEX = XRegExp('(?<num>      [-+]?[0-9]+(.[0-9]+)?[ ]*(?:e[+-]?[ ]*[0-9]+)?)[ ]*    # number       \n' +
+    var REGEX = XRegExp('(?<num>      [-+]?[0-9]+(.[0-9]+)?[ ]*(?:e[+-]?[ ]*[0-9]+)?)[ ]*    # number       \n' +
         '(?<input>    [a-z])[ ]*                                           # inputTemp    \n' +
         '(?<to>       (?:to)?)[ ]*                                           # to           \n' +
         '(?<output>   [a-z])[ ]*                                           # outputTemp', 'x' + 'i');
@@ -66,14 +66,11 @@
             var newMeasure = converters[value.output](parseInt(value.num), value.input)
             var result = newMeasure.getValue() + " " + newMeasure.getType();
         }
-        if (!newMeasure)
-            return "This conversion is not supported.. read EXAMPLES below!";
-        else
-            return result;
+        return result;
     }
 
     function invalidConversion(from, to) {
-        return "Invalid conversion: unknown how to convert from '" + from + "' to '" + to + "'.. See Examples below!"
+        return "Invalid conversion: unknown how to convert from '" + from + "' to '" + to + "'... See Examples below!"
     }
 
     exports.Medida = Medida;
