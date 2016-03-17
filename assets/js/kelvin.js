@@ -11,9 +11,8 @@
             return (5 * (value - 32) / 9) + 273.15;
         }
         if (converters[type])
+        {
             valor = converters[type](valor);
-        else {
-            valor = Medida.invalidConversion(type, 'Kelvin');
         }
         Temperatura.call(this, valor, 'Kelvin');
     }

@@ -1,0 +1,1 @@
+!function(r){function e(r,e){converters={},converters.k=function(r){return 1.8*r-459.67},converters.c=function(r){return 1.8*r+32},converters.f=function(r){return r},converters[e]&&(r=converters[e](r)),Temperatura.call(this,r,"Farenheit")}e.prototype=new Temperatura,e.prototype.constructor=e,r.Farenheit=e}(this);
