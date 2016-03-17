@@ -1,0 +1,1 @@
+!function(r){function e(r,e){converters={},converters.k=function(r){return r-273.15},converters.c=function(r){return r},converters.f=function(r){return 5*(r-32)/9},converters[e]&&(r=converters[e](r)),Temperatura.call(this,r,"Celsius")}e.prototype=new Temperatura,e.prototype.constructor=e,r.Celsius=e}(this);

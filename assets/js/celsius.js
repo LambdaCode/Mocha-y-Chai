@@ -11,9 +11,8 @@
             return (value - 32) * 5 / 9;
         }
         if (converters[type])
+        {
             valor = converters[type](valor);
-        else {
-            valor = Medida.invalidConversion(type, 'Celsius');
         }
         Temperatura.call(this, valor, 'Celsius');
     }
