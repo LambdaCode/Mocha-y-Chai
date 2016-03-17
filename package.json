@@ -9,18 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aluXXXXXXX/STW03.git"
+    "url": "https://github.com/LambdaCode/Mocha-y-Chai.git"
   },
   "keywords": [
     "conversor"
   ],
-  "author": "",
+  "author": "Rudolf Cicko & Adrián Bazaga Rodríguez",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LambdaCode/Mocha-y-Chai/issues"
   },
-  "homepage": "https://github.com/aluXXXXXXX/STW03",
+  "homepage": "https://github.com/LambdaCode",
   "devDependencies": {
-     "mocha": "*"
+     "mocha": "*",
+     "chai": "*"
   }
 }
